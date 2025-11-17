@@ -1,22 +1,25 @@
-import React from 'react'
-import TopCom from './componets/TopCom'
-import Work from './componets/Card'
-import Software from './componets/Software'
-import Testimonial from './componets/Testimonial'
+import React from "react";
+import TopCom from "./componets/TopCom";
+import Card from "./componets/Card";
 
+import Software from "./componets/Software";
+import StepCard from "./componets/StepCard";
 
-
+import { Footer } from "./componets/Footer";
+import Testimonial from "./componets/Testimonial";
 
 const App = () => {
   return (
     <div>
-      <TopCom/>
-      <Work/>
-      <Software/>
-      <Testimonial/>
-    
-    </div>
-  )
-}
+      <TopCom />
+      <Card />
+      <Software />
 
-export default App
+      <Testimonial />
+
+      <Footer />
+    </div>
+  );
+};
+
+export default App;

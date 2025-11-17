@@ -80,7 +80,7 @@ export default function Page() {
           {/* Image */}
           <div className="relative w-full h-48 sm:h-64 rounded overflow-hidden">
             <img
-              src="/software-developers-coding-at-computer-desk.jpg"
+              src={require('../assets/im2.png')}
               alt="Developer working at computer"
               className="w-full h-full object-cover"
             />

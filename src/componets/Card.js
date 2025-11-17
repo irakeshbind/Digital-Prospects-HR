@@ -32,13 +32,13 @@ export default function Card() {
  <h1 className="font-bold text-5xl">Our Hiring Process</h1>
  <p className="mt-5">Take a look at our simple and straightforward process to hire software developers from ValueCoders.</p>
 
-    <div className="relative w-full max-w-7xl mx-auto mt-20 px-4">
+    <div className="relative w-full max-w-7xl mx-auto mt-20 px-4 ">
 
       {/* Decorative curve – appears only once */}
       <div className="hidden md:block absolute left-0 top-1/2 w-24 h-24 border-4 border-teal-200 rounded-full opacity-40" />
 
       {/* Step Cards Layout */}
-      <div className="grid grid-cols-1 md:grid-cols-4 gap-14 md:gap-10 place-items-center">
+      <div className="grid grid-cols-1 md:grid-cols-4 gap-14 md:gap-10 place-items-center ">
         {steps.map((step) => (
           <StepCard
             key={step.number}
