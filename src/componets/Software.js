@@ -22,7 +22,7 @@ export default function Page() {
   ];
 
   return (
-    <div className="min-h-screen bg-white min-w-full mt-20">
+    <div className=" bg-white min-w-full mt-20 ">
       {/* Header */}
       <div className="bg-white py-12 px-4 md:px-8">
         <h1 className="text-center text-2xl md:text-4xl font-bold text-slate-900">
