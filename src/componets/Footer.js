@@ -18,8 +18,8 @@ export function Footer() {
         {/* Brand */}
         <div className="space-y-4">
           <div className="flex items-center gap-2 mb-6">
-            <div className="w-8 h-8 bg-teal-500 rounded-full flex items-center justify-center">
-              <span className="text-black font-bold text-lg">L</span>
+            <div className="w-8 h-8  rounded-full flex items-center justify-center">
+               <img src={require('../assets/im13.png')}/>
             </div>
             <h3 className="text-white font-bold text-lg">Logoisum</h3>
           </div>
