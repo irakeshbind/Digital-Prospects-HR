@@ -51,7 +51,8 @@ const Technology = () => {
             Frontend Development
           </h6>
           <p className="text-sm text-gray-600 leading-relaxed">
-            React | Vue | Angular | HTML | CSS | JS | Tailwind | Next.js
+            .NET | C/C++ | Django | Firebase | Golang | Symfony | Laravel | Node
+            | PHP | Python | Ruby on Rails | Java
           </p>
         </div>
 
@@ -64,8 +65,9 @@ const Technology = () => {
           <h6 className="text-lg font-semibold text-slate-900 mb-2">
             Mobile Development
           </h6>
-          <p className="text-sm text-gray-600 leading-relaxed">
-            Flutter | React Native | Kotlin | Swift | Java
+           <p className="text-sm text-gray-600 leading-relaxed">
+            .NET | C/C++ | Django | Firebase | Golang | Symfony | Laravel | Node
+            | PHP | Python | Ruby on Rails | Java
           </p>
         </div>
 
@@ -78,8 +80,9 @@ const Technology = () => {
           <h6 className="text-lg font-semibold text-slate-900 mb-2">
             Blockchain, AI/ML
           </h6>
-          <p className="text-sm text-gray-600 leading-relaxed">
-            Solidity | Web3 | TensorFlow | PyTorch | ML Models
+           <p className="text-sm text-gray-600 leading-relaxed">
+            .NET | C/C++ | Django | Firebase | Golang | Symfony | Laravel | Node
+            | PHP | Python | Ruby on Rails | Java
           </p>
         </div>
 
@@ -93,7 +96,8 @@ const Technology = () => {
             DevOps & Low Code
           </h6>
           <p className="text-sm text-gray-600 leading-relaxed">
-            AWS | Docker | Kubernetes | CI/CD | PowerApps
+            .NET | C/C++ | Django | Firebase | Golang | Symfony | Laravel | Node
+            | PHP | Python | Ruby on Rails | Java
           </p>
         </div>
 
@@ -106,8 +110,9 @@ const Technology = () => {
           <h6 className="text-lg font-semibold text-slate-900 mb-2">
             E-commerce & CMS
           </h6>
-          <p className="text-sm text-gray-600 leading-relaxed">
-            Shopify | WooCommerce | Magento | WordPress | Strapi
+           <p className="text-sm text-gray-600 leading-relaxed">
+            .NET | C/C++ | Django | Firebase | Golang | Symfony | Laravel | Node
+            | PHP | Python | Ruby on Rails | Java
           </p>
         </div>
       </div>
