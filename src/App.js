@@ -1,8 +1,11 @@
 import React from 'react'
+import TopCom from './componets/TopCom'
 
 const App = () => {
   return (
-    <div>App</div>
+    <div>
+      <TopCom/>
+    </div>
   )
 }
 
