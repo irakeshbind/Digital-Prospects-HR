@@ -11,7 +11,7 @@ export default function TopCom() {
   ]
 
   return (
-    <main className="min-h-screen bg-gradient-to-br bg-linear-to-r/longer from-red-700 to-green-900">
+    <main className="min-h-screen bg-gradient-to-br from-[#f5ede3] via-[#faf7f2] to-[#f0ece5] ">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 lg:py-20">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
           {/* Illustration */}
