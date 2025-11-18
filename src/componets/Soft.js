@@ -11,7 +11,7 @@ export default function Soft() {
   ];
 
   return (
-    <main className="min-h-screen bg-gradient-to-br from-slate-950 via-blue-900 to-slate-900 ">
+    <main className="min-h-screen bg-gradient-to-br from-slate-950 via-blue-900 to-slate-900 mb-20 ">
       <div className="px-6 py-16 max-w-7xl mx-auto grid lg:grid-cols-2 gap-16 items-center">
 
         {/* Left Section */}
