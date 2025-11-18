@@ -29,14 +29,14 @@ export function Footer() {
           </p>
 
           {/* Social Icons */}
-          <div className="flex gap-3 pt-4">
+          <div className="flex gap-3 pt-4 ">
             {[Facebook, Twitter, Linkedin, Instagram].map((Icon, idx) => (
               <a
                 key={idx}
                 href="#"
-                className="w-10 h-10 bg-white rounded-full flex items-center justify-center text-black hover:bg-gray-200 transition"
+                className=" w-10 h-10 bg-white rounded-full flex items-center justify-center text-black hover:bg-gray-200 transition"
               >
-                <Icon size={18} />
+                <Icon size={18} className="text-green-400" />
               </a>
             ))}
           </div>

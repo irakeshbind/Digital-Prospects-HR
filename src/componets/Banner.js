@@ -95,13 +95,16 @@ export default function HiringSection() {
       </div>
 
 {/* ---------------- RIGHT FORM (SHORT HEIGHT + WIDER) ---------------- */} 
-<div className="flex-1 max-w-lg w-full bg-white rounded-lg shadow-md p-7">
-  <h2 className="text-xl font-bold text-[#1e3a4c] mb-1">
+
+<div className="flex-1 max-w-lg w-full  bg-white rounded-lg shadow-md p-7">
+  <div className="text-center py-5">
+    <h2 className="text-xl font-bold text-[#1e3a4c] mb-1">
     Create Your Team
   </h2>
   <p className="text-gray-500 text-xs mb-4">
     Lorem Ipsum is simply dummy text of the printing industry.
   </p>
+  </div>
 
   <form onSubmit={handleSubmit} className="space-y-4">
     {/* Full Name + Email */}
@@ -190,6 +193,7 @@ export default function HiringSection() {
     </button>
   </form>
 </div>
+
 
     </section>
   );
