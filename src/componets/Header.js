@@ -1,5 +1,3 @@
-
-
 import { useState } from "react";
 import { CheckCircle, ArrowRight, Menu, X } from "lucide-react";
 
@@ -19,7 +17,7 @@ export default function Header() {
       <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
         {/* Logo */}
         <div className="flex items-center gap-2">
-          <img src={require('../assets/im13.png')}/>
+          <img src={require("../assets/im13.png")} />
           <span className="font-semibold text-gray-900">Logoipsum</span>
         </div>
 
