@@ -22,7 +22,7 @@ export default function Card() {
       number: 3,
       title: "Team Integration",
       description: "Lorem ipsum is simply dummy text of the printing industry.",
-      image:
+      imagess:
         "https://media.istockphoto.com/id/2172317014/photo/happy-hispanic-man-working-on-laptop-at-home.jpg?s=2048x2048&w=is&k=20&c=jJPw6z79N7HyqjrQcXravLUlk7JT-uOCoehbXc43Rco=",
     },
     {
@@ -51,7 +51,7 @@ export default function Card() {
               number={step.number}
               title={step.title}
               description={step.description}
-              image={step.image}
+              imagess={step.imagess}
               icon={
                 <div className="flex flex-col items-center gap-2">
                   <div className="w-16 h-16 rounded-full bg-gray-100 flex items-center justify-center">
