@@ -37,7 +37,7 @@ const testimonials: TestimonialCard[] = [
 
 export default function Testimonial() {
   return (
-    <div className="w-full  py-12 px-4">
+    <div className="w-full  py-12 px-4 bg-linear-to-r/longer from-red-700 to-green-900">
       <div className="max-w-7xl  bg-white p-8">
 
         {/* Header */}

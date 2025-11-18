@@ -50,7 +50,7 @@ export default function HiringSection() {
   };
 
   return (
-    <section className="min-h-screen bg-white px-6 lg:px-12 py-16 flex flex-col lg:flex-row gap-12 items-start">
+    <section className="min-h-screen px-6 lg:px-12 py-16 flex flex-col lg:flex-row gap-12 items-start  bg-linear-to-r/longer from-red-700 to-green-900 ">
       {/* ---------------- LEFT HERO ---------------- */}
       <div className="flex-1 relative">
         {/* BG Decorations */}
@@ -97,7 +97,7 @@ export default function HiringSection() {
 {/* ---------------- RIGHT FORM (SHORT HEIGHT + WIDER) ---------------- */} 
 
 <div className="flex-1 max-w-lg w-full  bg-white rounded-lg shadow-md p-7">
-  <div className="text-center py-5">
+  <div className="text-center py-2">
     <h2 className="text-xl font-bold text-[#1e3a4c] mb-1">
     Create Your Team
   </h2>

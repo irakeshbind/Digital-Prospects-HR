@@ -26,7 +26,7 @@ const Technology = () => {
       "
       >
         {/* Technology Card */}
-        <div className="p-6 bg-blue-100 rounded-xl shadow-md border-b-[6px] border-red-700">
+        <div className="p-6 rounded-xl shadow-md border-b-[6px] border-red-700 bg-linear-to-r/longer from-red-700 to-green-900">
           <div className="w-20 h-20  flex items-center justify-center mb-6">
             <span className="text-gray-600">
                <img src={require("../assets/im7.png")} />
