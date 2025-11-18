@@ -2,7 +2,7 @@ import React from "react";
 
 const Technology = () => {
   return (
-    <div className="w-full px-4 sm:px-6 md:px-10 lg:px-16 py-10">
+    <div className="w-full px-4 sm:px-6 md:px-10 lg:px-16 py-10 mb-10">
       {/* Section Header */}
       <div className="text-center max-w-2xl mx-auto mb-12">
         <h1 className="font-bold text-3xl md:text-4xl text-slate-900 mb-4">

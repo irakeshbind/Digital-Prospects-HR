@@ -35,7 +35,7 @@ export default function Card() {
   ];
 
   return (
-    <div className=" text-center mt-10 mb-5">
+    <div className=" text-center mt-20">
       <h1 className="font-bold text-5xl">Our Hiring Process</h1>
       <p className="mt-5">
         Take a look at our simple and straightforward process to hire software

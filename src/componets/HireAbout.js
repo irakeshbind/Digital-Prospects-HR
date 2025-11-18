@@ -21,7 +21,7 @@ const features = [
 
 export default function HireAbout() {
   return (
-    <div className="w-full px-6 py-16 md:px-4 lg:px-16 mt-1 bg-linear-to-r/longer from-red-700 to-green-900 ">
+    <div className="w-full px-6 py-16 md:px-4 lg:px-16 mt-1 bg-linear-to-r/longer from-red-700 to-green-900  ">
       {/* Heading */}
       <div className="text-center max-w-2xl mx-auto mb-16">
         <h1 className="font-bold text-3xl md:text-4xl text-slate-900 mb-4">
